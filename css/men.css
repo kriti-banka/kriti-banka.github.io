@@ -1,0 +1,163 @@
+body
+{
+    font-family: 'Nunito';
+}
+
+.container
+{
+    display: flex;
+}
+.left_col
+{
+    width: 15%;
+    display: flex;
+    border-right: 2px solid black;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #c31432; */
+    /* height: 100vw; */
+    /* position:-webkit-sticky */
+    /* background-color:#FAFAFA; */
+    /* padding: 1.5vw; */
+}
+.right_col
+{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+}
+.gender
+{
+    /* background-color: brown; */
+    /* width: 70%; */
+}
+.filter-gender
+{
+    font-size: medium;
+    display: flex;
+    align-items: center;
+}
+
+.size
+{
+    /* background-color: aquamarine; */
+}
+
+.filter-size
+{
+    display: flex;
+    align-items: center;
+    font-size: medium;
+}
+
+.brand
+{
+    /* background-color: bisque; */
+}
+
+.filter-brand
+{
+    display: flex;
+    align-items: center;
+    font-size: medium;
+}
+.filter-color
+{
+    display: flex;
+    align-items: center;
+    font-size: medium;
+}
+.colorcircle
+{
+    /* background-color: cadetblue; */
+    flex-grow: .2;
+    text-align: center;
+}
+.colorcircle img
+{
+    width: .8vw;
+}
+
+.price
+{
+    font-size: medium;
+}
+
+
+.head
+{
+    /* background-color: aqua; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to right,#c31432,#240b36); */
+    background-color: #000000;
+    padding: 0vw 3.5vw;
+}
+.head h1
+{
+    /* background-image:linear-gradient(to right,#f12711,#f5af19); */
+    background-image:linear-gradient(to right,#FF416C,#FF4B2B);
+    -webkit-background-clip: text;
+    font-size: 3vw;
+    -webkit-text-fill-color: transparent;
+}
+.head button
+{
+    background-color: white;
+    border: 2px solid black;
+    width: 10vw;
+    font-weight: bold;
+    height: 2vw;
+}
+
+.head button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.shoe_grid
+{
+    /* background-color: bisque; */
+}
+.blockbuster
+{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Nunito';
+  margin-left: 20px;
+  /* align-items: center; */
+}
+
+.block_card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block_card:hover
+{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.block_card img
+{
+  height: 17vw;
+  width: 17vw;
+}
+
+.block_card h2 
+{
+  font-size: medium;
+}
+
+.blockbuster a
+{
+  text-decoration: none;
+  color: #000000;
+}

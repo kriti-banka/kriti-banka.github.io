@@ -1,0 +1,93 @@
+body
+{
+    background-color: black;
+    font-family: "Nunito";
+}
+
+.row
+{
+    display: flex;
+    /* background-color: aquamarine; */
+    /* height: 50%; */
+}
+
+.col1
+{
+    width: 40%;
+    /* background-color: bisque; */
+}
+.col1 img
+{
+    width: 100%;
+}
+
+.col2
+{
+    width: 58%;
+    /* background-color: white; */
+    display: flex;
+    height: 56vw;
+
+    flex-direction: column;
+    padding: 0% 1%;
+}
+.row1
+{
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    /* background-color: pink; */
+}
+.row2
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    align-items: center;
+}
+form
+{
+    /* background-color: black; */
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+#email
+{
+    height: 1.5vw;
+}
+#password
+{
+    height: 1.5vw;
+}
+form button
+{
+    height: 2.5vw;
+    border: 2px solid white;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+form button:hover
+{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+#signup
+{
+    height: 2.5vw;
+    width: 8vw;
+    border: 2px solid white;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+#signup:hover
+{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
